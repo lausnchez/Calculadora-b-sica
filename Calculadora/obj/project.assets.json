@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\laura.sanchez\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\Users\\laura.sanchez\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+      "projectPath": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\laura.sanchez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\laura.sanchez\\source\\repos\\Calculadora\\Calculadora\\obj\\",
+      "outputPath": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\laura.sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -54,7 +54,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White"    
+                Foreground="White"
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_porcentaje"
                 Grid.Column="1"
@@ -67,6 +68,7 @@
                 HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="White"
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_x"
                 Grid.Column="2"
@@ -79,6 +81,7 @@
                 HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="White"
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_dividir"
                 Grid.Column="3"
@@ -91,6 +94,7 @@
                 HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="White"
+                Click="btn_num_Click"
             ></Button>
 
             <!--Segunda fila-->
@@ -104,7 +108,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click"    
+                Foreground="White" 
+                Click="btn_num_Click"    
             ></Button>
             <Button x:Name="btn_8"
                 Grid.Column="1"
@@ -116,7 +121,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click"
+                Foreground="White" 
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_9"
                 Grid.Column="2"
@@ -128,7 +134,9 @@
                 VerticalAlignment="Bottom"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click" Margin="0,0,0,4"
+                Foreground="White" 
+                Click="btn_num_Click" 
+                Margin="0,0,0,4"
             ></Button>
             <Button x:Name="btn_multiplicar"
                 Grid.Column="3"
@@ -141,6 +149,7 @@
                 HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="White"
+                Click="btn_num_Click"
             ></Button>
 
             <!-- Tercera fila-->
@@ -154,7 +163,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click"    
+                Foreground="White" 
+                Click="btn_num_Click"    
             ></Button>
             <Button x:Name="btn_5"
                 Grid.Column="1"
@@ -166,7 +176,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click"
+                Foreground="White" 
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_6"
                 Grid.Column="2"
@@ -178,7 +189,9 @@
                 VerticalAlignment="Top"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click" Margin="0,3,0,0"
+                Foreground="White" 
+                Click="btn_num_Click" 
+                Margin="0,3,0,0"
             ></Button>
             <Button x:Name="btn_restar"
                 Grid.Column="3"
@@ -191,6 +204,7 @@
                 HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="White"
+                Click="btn_num_Click"
             ></Button>
 
             <!--Cuarta fila-->
@@ -204,7 +218,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click"    
+                Foreground="White"
+                Click="btn_num_Click"    
             ></Button>
             <Button x:Name="btn_2"
                 Grid.Column="1"
@@ -216,7 +231,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click"
+                Foreground="White"
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_3"
                 Grid.Column="2"
@@ -228,7 +244,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click"
+                Foreground="White" 
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_sumar"
                 Grid.Column="3"
@@ -241,6 +258,7 @@
                 HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="White"
+                Click="btn_num_Click"
             ></Button>
 
             <!-- Quinta fila-->
@@ -254,7 +272,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White"    
+                Foreground="White"
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_0"
                 Grid.Column="1"
@@ -266,7 +285,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"
-                Foreground="White" Click="btn_num_Click"
+                Foreground="White" 
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_coma"
                 Grid.Column="2"
@@ -279,6 +299,7 @@
                 HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="White"
+                Click="btn_num_Click"
             ></Button>
             <Button x:Name="btn_resultado"
                 Grid.Column="3"
@@ -291,6 +312,7 @@
                 HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="White"
+                Click="btn_num_Click"
             ></Button>
         </Grid>
     </Grid>

@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculadora"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="400">
+        Title="MainWindow" Height="600" Width="400"
+        ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -294,7 +295,7 @@
                 Width="90"
                 Height="90"
                 Background="#1a3d75"
-                Content=","
+                Content="."
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 FontSize="30"

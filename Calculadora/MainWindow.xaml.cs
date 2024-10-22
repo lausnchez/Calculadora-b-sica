@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Configuration;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -17,10 +18,10 @@ namespace Calculadora
     public partial class MainWindow : Window
     {
         
-        static float num1;
-        static float num2;
-        static Boolean dobleNumero = false;
+        static String num1;
+        static String num2;
         static float resultado;
+        static string operacion;
 
         public MainWindow()
         {
@@ -38,7 +39,6 @@ namespace Calculadora
                     txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 0);
                     //num1 = (num1 * 10) + 0;
                     //txt_Pantalla.Text = num1.ToString();
-
                 }
             }
             // Numero 1
@@ -156,20 +156,50 @@ namespace Calculadora
             // Borrar todo
             if (sender.Equals(btn_C))
             {
-                num1 = 0;
-                num2 = 0;
+                num1 = "";
+                num2 = "";
+                resultado = 0;
+                operacion = "";
                 txt_Pantalla.Text = "";
             }
-            if (sender.Equals(btn_x))
+            if (sender.Equals(btn_x))   // Elevar a 4
             {
                 float temporal = float.Parse(txt_Pantalla.Text);
                 temporal = (float)Math.Pow(temporal, 4);
                 txt_Pantalla.Text = temporal.ToString();
             }
             // OPERACIONES --------------------------------------------------
-            if (sender.Equals(btn_sumar))
+            if (sender.Equals(btn_sumar))   // SUMAR
             {
-                
+                operacion = "sumar";
+                num1 = txt_Pantalla.Text.ToString();
+                txt_Pantalla.Text = "";
+
+            }
+            if (sender.Equals(btn_restar))  // RESTAR
+            {
+                operacion = "restar";
+            }
+            if (sender.Equals(btn_multiplicar)) // MULTIPLICAR
+            {
+                operacion = "multiplicar";
+            }
+            if (sender.Equals(btn_dividir)) // DIVIDIR
+            {
+                operacion = "dividir";
+            }
+            if (sender.Equals(btn_resultado))
+            {
+                if (operacion.Equals("sumar"))
+                {
+                    num2 = txt_Pantalla.Text.ToString();
+                    txt_Pantalla.Text = (float.Parse(num2) + float.Parse(num1)).ToString();
+                }
+                if (operacion.Equals("restar"))
+                {
+                    num2 = txt_Pantalla.Text.ToString();
+                    txt_Pantalla.Text = (float.Parse(num2) - float.Parse(num1)).ToString();
+                }
             }
         }
     }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E6508A3-3841-443B-B308-19C28190B08F}|Calculadora\\Calculadora.csproj|c:\\users\\laura.sanchez\\git\\github\\calculadora-b-sica\\calculadora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E6508A3-3841-443B-B308-19C28190B08F}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E6508A3-3841-443B-B308-19C28190B08F}|Calculadora\\Calculadora.csproj|c:\\users\\laura.sanchez\\git\\github\\calculadora-b-sica\\calculadora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9E6508A3-3841-443B-B308-19C28190B08F}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6508A3-3841-443B-B308-19C28190B08F}|Calculadora\\Calculadora.csproj|c:\\users\\laura.sanchez\\git\\github\\calculadora-b-sica\\calculadora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E6508A3-3841-443B-B308-19C28190B08F}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Calculadora\\MainWindow.xaml",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Calculadora\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\MainWindow.xaml.cs",
               "RelativeToolTip": "Calculadora\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAAAKsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAqwLAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T17:32:07.141Z",
               "EditorCaption": ""

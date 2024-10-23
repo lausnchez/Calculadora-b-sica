@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\laura.sanchez\\.nuget\\packages\\": {}
+    "C:\\Users\\Laura Sánchez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\Laura Sánchez\\Documents\\GitHub\\Calculadora-b-sica\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\Calculadora.csproj",
-      "packagesPath": "C:\\Users\\laura.sanchez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\laura.sanchez\\git\\gitHub\\Calculadora-b-sica\\Calculadora\\obj\\",
+      "projectPath": "C:\\Users\\Laura Sánchez\\Documents\\GitHub\\Calculadora-b-sica\\Calculadora\\Calculadora.csproj",
+      "packagesPath": "C:\\Users\\Laura Sánchez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Laura Sánchez\\Documents\\GitHub\\Calculadora-b-sica\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\laura.sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Laura Sánchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Laura Sánchez\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Laura Sánchez\\.nuget\\packages"
+      "C:\\Users\\laura.sanchez\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\laura.sanchez\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

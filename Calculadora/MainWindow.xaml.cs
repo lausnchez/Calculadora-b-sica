@@ -18,8 +18,7 @@ namespace Calculadora
     public partial class MainWindow : Window
     {
         
-        static double num1;
-        static double num2;
+        static float num1;
         static float resultado;
         static string operacion;
 
@@ -36,72 +35,52 @@ namespace Calculadora
                 // Numero 0 -------------
                 if (sender.Equals(btn_0))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 0);
-                        num1 = (num1 * 10) + 0;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 0);
                 }
                 // Numero 1 -------------
                 if (sender.Equals(btn_1))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 1);
-                        num1 = (num1 * 10) + 1;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 1);
                 }
                 // Numero 2 -------------
                 if (sender.Equals(btn_2))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 2);
-                        num1 = (num1 * 10) + 2;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 2);
                 }
                 // Numero 3 -------------
                 if (sender.Equals(btn_3))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 3);
-                        num1 = (num1 * 10) + 3;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 3);
                 }
                 // Numero 4 -------------
                 if (sender.Equals(btn_4))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 4);
-                        num1 = (num1 * 10) + 4;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 4);
                 }
                 // Numero 5 -------------
                 if (sender.Equals(btn_5))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 5);
-                        num1 = (num1 * 10) + 5;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 5);
                 }
                 // Numero 6 -------------
                 if (sender.Equals(btn_6))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 6);
-                        num1 = (num1 * 10) + 6;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 6);
                 }
                 // Numero 7 -------------
                 if (sender.Equals(btn_7))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 7);
-                        num1 = (num1 * 10) + 7;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 7);
                 }
                 // Numero 8 -------------
                 if (sender.Equals(btn_8))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 8);
-                        ; num1 = (num1 * 10) + 8;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 8);
                 }
                 // Numero 9 -------------
                 if (sender.Equals(btn_9))
                 {
-                        //txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 9);
-                        num1 = (num1 * 10) + 9;
-                        txt_Pantalla.Text = num1.ToString();
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, 9);
                 }
             }
 
@@ -116,13 +95,14 @@ namespace Calculadora
             // Coma
             if (sender.Equals(btn_coma))
             {
-                txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, ",");
+                if (!txt_Pantalla.Text.Contains(",")){
+                    txt_Pantalla.Text = String.Concat(txt_Pantalla.Text, ",");
+                }
             }
             // Borrar todo
             if (sender.Equals(btn_C))
             {
                 num1 = 0;
-                num2 = 0;
                 resultado = 0;
                 operacion = "";
                 txt_Pantalla.Text = "";
@@ -137,33 +117,64 @@ namespace Calculadora
             if (sender.Equals(btn_sumar))   // SUMAR
             {
                 operacion = "sumar";
-                
+                num1 = float.Parse(txt_Pantalla.Text);
                 txt_Pantalla.Text = "";
-
             }
             if (sender.Equals(btn_restar))  // RESTAR
             {
                 operacion = "restar";
+                num1 = float.Parse(txt_Pantalla.Text);
+                txt_Pantalla.Text = "";
             }
             if (sender.Equals(btn_multiplicar)) // MULTIPLICAR
             {
                 operacion = "multiplicar";
+                num1 = float.Parse(txt_Pantalla.Text);
+                txt_Pantalla.Text = "";
             }
             if (sender.Equals(btn_dividir)) // DIVIDIR
             {
                 operacion = "dividir";
+                num1 = float.Parse(txt_Pantalla.Text);
+                txt_Pantalla.Text = "";
+            }
+            if (sender.Equals(btn_porcentaje))
+            {
+                operacion = "resto";
+                num1 = float.Parse (txt_Pantalla.Text);
+                txt_Pantalla.Text = "";
             }
             if (sender.Equals(btn_resultado))
             {
                 if (operacion.Equals("sumar"))
                 {
-                    //num2 = txt_Pantalla.Text.ToString();
-                    //txt_Pantalla.Text = (float.Parse(num2) + float.Parse(num1)).ToString();
+                    resultado = num1 + float.Parse(txt_Pantalla.Text);
+                    txt_Pantalla.Text = resultado.ToString();
+                    num1 = 0;
                 }
                 if (operacion.Equals("restar"))
                 {
-                    //num2 = txt_Pantalla.Text.ToString();
-                    //txt_Pantalla.Text = (float.Parse(num2) - float.Parse(num1)).ToString();
+                    resultado = num1 - float.Parse(txt_Pantalla.Text);
+                    txt_Pantalla.Text = resultado.ToString();
+                    num1 = 0;
+                }
+                if (operacion.Equals("multiplicar"))
+                {
+                    resultado = num1 * float.Parse(txt_Pantalla.Text);
+                    txt_Pantalla.Text = resultado.ToString();
+                    num1 = 0;
+                }
+                if (operacion.Equals("dividir"))
+                {
+                    resultado = num1 / float.Parse(txt_Pantalla.Text);
+                    txt_Pantalla.Text = resultado.ToString();
+                    num1 = 0;
+                }
+                if (operacion.Equals("resto"))
+                {
+                    resultado = num1 % float.Parse(txt_Pantalla.Text);
+                    txt_Pantalla.Text = resultado.ToString();
+                    num1 = 0;
                 }
             }
         }
